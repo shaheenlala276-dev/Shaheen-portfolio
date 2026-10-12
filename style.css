@@ -818,3 +818,24 @@ a:focus-visible {
     animation-duration: 0.01ms !important;
   }
 }
+
+/* Circular portrait photo - only added change */
+
+.hero-photo-frame {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 20px auto;
+  border: 4px solid var(--blue);
+  box-shadow: 0 0 25px rgba(101, 170, 255, 0.3);
+}
+
+.hero-photo {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
